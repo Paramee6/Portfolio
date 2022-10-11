@@ -1,0 +1,88 @@
+body {
+    background-color: #ffe2a9;
+}
+
+h1,h2{
+    text-align: center;
+    border: 5px dotted rgb(255, 155, 185);
+    border-style: double;
+    border-width: 15px;
+    background-color: rgb(255, 190, 210);
+    color: rgb(33, 117, 30);
+    font-weight: bold;
+    font-style: oblique;
+}
+
+h3{
+    text-align: center;
+    color: rgb(33, 117, 30);
+    font-weight: bold;
+    font-style: oblique;
+}
+
+h4{
+   text-align: center;
+    color: black;
+    font-weight: bold;
+    font-style: oblique; 
+}
+ul{
+    list-style: none;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+div{
+    text-align: center;
+}
+
+#profile_pic{
+    width: 20%;
+}
+
+#projectUI_pic{
+    width: 60%;
+}
+
+#Astro_pic{
+    width: 30%;
+}
+
+.center_page{
+    text-align: center;
+}
+
+/* context selectors */
+div a{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(127, 54, 196);
+}
+
+hr{
+    height: 20px;
+    color: rgb(255, 155, 185);
+    background-color: rgb(255, 155, 185);
+    border: none;
+}
+
+.button{
+    background-color: rgb(255, 155, 185);
+    border-radius: 10px;
+    font-style: oblique;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 10px;
+    border: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.button:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#footer{
+    grid-column: 1 / span 3;
+} 
